@@ -4,13 +4,13 @@ Config = {}
 -- a lot of the steamid converting websites are broken rn and give you the wrong steamid. I use https://steamid.xyz/ with no problems.
 -- you can also give priority through the API, read the examples/readme.
 Config.Priority = {
-    ["STEAM_0:1:0000####"] = 1,
+    ["STEAM_0:0:15840238"] = 1,
     ["steam:110000######"] = 25,
     ["ip:127.0.0.0"] = 85
 }
 
 -- require people to run steam
-Config.RequireSteam = false
+Config.RequireSteam = true
 
 -- "whitelist" only server
 Config.PriorityOnly = false
